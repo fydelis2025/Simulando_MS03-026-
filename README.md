@@ -29,6 +29,13 @@ Em agosto de 2003, o worm **W32.Blaster** se espalhou globalmente explorando uma
 
 ---
 
+## 🧠 Objetivos Educacionais
+Compreensão de Vetores de Ataque Clássicos: Entender o impacto visual e psicológico que um malware de propagação em massa causava nos usuários nos anos 2000.
+
+Estudo de Portabilidade Lógica: Analisar como uma mesma regra de negócio (uma contagem regressiva com interface de texto e atraso de tempo) é implementada em paradigmas tão distintos quanto Assembly, COBOL, Fortran e Clipper.
+
+Segurança Defensiva: Reforçar a importância de políticas de gerenciamento de patches e atualização contínua de infraestruturas de TI.
+
 ## 🚀 Como Compilar e Executar os Exemplos
 
 Cada diretório deste repositório contém o código-fonte isolado. Veja abaixo como testá-los:
@@ -39,3 +46,4 @@ Para montar e executar a simulação baseada em syscalls de baixo nível:
 nasm -f elf32 blaster_win.asm -o blaster.o
 ld -m elf_i386 blaster.o -o blaster
 ./blaster
+
